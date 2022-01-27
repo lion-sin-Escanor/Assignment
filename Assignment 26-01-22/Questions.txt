@@ -1,0 +1,2 @@
+1.Take 3 number from user as input and alert minimum of those 3 number
+2.Take a Character from user and show whether it is a vovel or consonant
