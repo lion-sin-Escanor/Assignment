@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon.ico">
+    <title>Geekster-Apply-Form</title>
+</head>
+
+<body>
+    <img src="./symbol.PNG">
+    <h1>Geekster Application Form</h1>
+    <form action="">
+        <label for="name"> <b> Full Name*</b></label>
+        <br/><br/>
+        <input type="text" placeholder="Enter full name" minlength="3" maxlength="15" pattern="^[A-Za-z ]*$" required/>
+        <br/><br/>
+        <label for="email"> <b> Email*</b></label>
+        <br/><br/>
+        <input type="email" placeholder="Enter email" pattern=".+@gmail\.com" required/>
+        <br/><br/>
+        <label for="course"> <b>Select Course*</b> </label>
+        <br/><br/>
+        <select name="course" id="" required>
+          <option selected value disabled hidden value="">Select course</option>
+          <option value="Full Stack Web Development">Full Stack Web Development</option>
+         <option value="Advanced Web Development">Advanced Web Development</option>
+        </select>
+        <br/><br/>
+        <label for="number"> <b>Phone*</b> </label>
+        <br/><br/>
+        <input type="text" name="MyNumber"  pattern="[0-9]{10}">
+        <br/><br/>
+        <label for="degree"> <b>Highest Degree*</b></label>
+        <br/><br/>
+        <select name="degree " id=" " required>
+            <option selected value disabled hidden value=" ">Select highest degree</option>
+            <option value="B.E or B.Tech CS/IT ">B.E or B.Tech CS/IT</option>
+            <option value="B.E or B.Tech other ">B.E or B.Tech other</option>
+            <option value="M.S or M.Tech or CS/IT ">M.S or M.Tech or CS/IT</option>
+            <option value="M.S or M.Tech or other ">M.S or M.Tech or other</option>
+            <option value="BCA ">BCA</option>
+            <option value="MCA ">MCA</option>
+            <option value="Others ">Others</option>
+        </select>
+        <br/><br/>
+        <label for="yoc"><b>Year of Completion*</b></label>
+        <br/><br/>
+        <select name="yoc " id=" " required> 
+            <option selected value disabled hidden value=" ">Select year of completion</option>
+            <option value="2018 ">2018</option>
+            <option value="2019 ">2019</option>
+            <option value="2020 ">2020</option>
+            <option value="2021 ">2021</option>
+            <option value="2022 ">2022</option>
+            <option value="2023 ">2023</option>
+        </select>
+        <br/><br/>
+        <label for="prgSkills"><b>Programming Skills*</b></label>
+        <br/><br/>
+        <select name="prgSkill " id=" " required>
+            <option selected value disabled hidden value=" ">Select programming skills</option>
+            <option value="No coding skills ">No coding skills</option>
+            <option value="Basic coding skills ">Basic coding skills</option>
+            <option value="Intermediate coding skills ">Intermediate coding skills</option>
+            <option value="Good coding skills ">Good coding skills</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="checkbox" name="isSigned " id=" " required/>
+        <span>
+              By signing up, you agree to the
+               <a href=" " target="_blank "><span> Terms and Conditions </span></a> of Geekster (QuantumBit technologies Pvt. Ltd)*.
+        </span>
+        <br/><br/>
+        <button type="submit ">Submit</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+
+</html>
